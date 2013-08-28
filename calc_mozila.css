@@ -1,0 +1,192 @@
+@font-face{
+font-family: digital;
+src: url("digi/digital.ttf");   
+}
+*{	
+	text-align: center;
+	  margin: 0px; 
+
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+	display: block;
+}
+#aplicacion{
+	/*border: 1px solid #999999;*/
+	width: 320px;
+	height: 480px;
+	border-radius: 10px;
+	background-image: URL("img/calculadora.png");
+	float: left;
+	margin: 0px; 
+	padding: 0px;
+}
+#carcasasuperior{
+	margin-top: 16px;
+	margin-left: 7px;
+	width: 300px;
+	height: 105px;
+	background-image: URL("img/carcasasuperior.png");
+
+}
+#logo{
+	margin-left: 15px;
+	margin-top: 5px;
+	width: 85px;
+	height: 25px;
+	background-image: URL("img/logomoz.png");
+	float: left;
+}
+#acumulador{
+	float: left;
+	margin-top: 5px;
+	margin-left: 55px;
+	width: 105px;
+	height: 25px;
+	background-image: URL("img/acumular.png");
+	color: #FFFFFF;
+	font-size: 12px;
+
+}
+#pantalla{
+	background-image: URL("img/pantalla.png");
+	margin-left:20px;
+	width: 215px;
+	height: 56px;
+	float: left;
+	margin-bottom: 0px;
+	font-size: 20px;
+	text-align: right;
+	display: -Moz-box;
+	-Moz-box-orient: vertical;
+	-Moz-box-pack: right;
+}
+#borrarlast{
+	background-image: URL("img/retro.png");
+	margin-top: 9px;
+	margin-left: 4px;
+	width: 45px;
+	height: 40px;
+	float: left;
+	}
+#borrarlast:hover{
+	background-image: URL("img/retro_hover.png");
+
+}	
+/*#pantalla:hover{
+-ms-transform: scale(0.1 , 1.0) translate(0px,50px); 
+-webkit-transform: scale(0.3 , 0.8) translate(350px,180px);  
+-moz-transform: scale(0.5 , 0.5) translate(0px,50px); 
+-o-transform: scale(0.2 , 1.2) translate(0px,50px); 
+transform: scale(0.2 , 1.2) translate(0px,50px); 
+-moz-transition: all 5s;
+-ms-transition: all 5s;
+-webkit-transition: all 3s;
+-o-transition: all 5s;
+ 
+}*/
+#botones{
+	margin-top: 26px !important;
+	margin:13px;
+	height: 301px;
+	width: 290px;
+	border: 1px solid #999999;
+	float: left;
+ 
+}
+#botones div{
+	width: 50px;
+	height: 52px;
+	border-radius: 3px;
+	float: left;
+	color:#FFFFFF;
+	background-image: URL("img/boton.png");
+	background-repeat: no-repeat;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	margin: 0px 2px;
+
+	display: -Moz-box;
+	-Moz-box-orient: vertical;
+	-Moz-box-pack: center;
+
+	display: box;
+	box-orient: vertical;
+	box-pack: center;
+	}
+#numeros {
+	margin:40px 0px; 
+	height: 250px;
+	width: 164px;
+	float: left;
+}
+#numeros div{
+		margin: 5px 2px;
+
+}
+#operaciones{
+	margin:40px 0px; 
+	width: 50px;
+	height: 250px;
+	float: left;
+}
+#operaciones div{
+	margin: 5px 0px;
+}
+/*#operaciones2{
+	border: 7px solid #999999;
+	height: 50px;
+	width: 50px;
+}
+#operaciones2 div{
+	float: left;
+	margin: 0px 5px;
+
+*/
+
+#acumulados{
+	height: 150px;
+	width: 70px;
+	float: left;
+	margin-top: 40px !important; 
+}
+#acumulados div{
+	word-wrap: break-word; 
+	padding left: 4px auto;
+	background-image: URL("img/acumulado.png");
+	height: 55px !important;
+	width: 70px !important;
+	float: left;
+	margin: 4px 0px;
+	text-align: center;
+	color: #000000;
+}
+
+#limpiar {
+	background-image: URL("img/boton.png") !important;
+	color: #FFFFFF !important;
+
+}
+.digitos{
+	padding: 10px 0px;
+	background: none !important;
+}
+#acumulador:hover{
+	background-image: URL("img/acumulador_2.png");
+
+}
+#numeros div:hover{
+	background-image: URL("img/boton_hover.png");
+
+}
+#operaciones div:hover{
+	background-image: URL("img/boton_hover.png");
+}
+#acumulados div:hover{
+	background-image: URL("img/acumulado_hover.png");
+
+}
+#limpiar:hover{
+	background-image: URL("img/boton_hover.png") !important;
+
+}

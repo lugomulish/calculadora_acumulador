@@ -1,0 +1,13 @@
+{
+  "name": "Calculadora con Acumulador",
+  "description": "Esta calculadora permite guardar resultados (como variables) para despues usarlas en mas operaciones",
+  "launch_path": "calculadora_reto.html",
+  "icons": {
+    "128": "/img/calculadora.png"
+  },
+  "developer": {
+    "name": "Rodolfo Edu Lugo Garcia-Campeche",
+    "url": " "
+  },
+  "default_locale": "en"
+}
